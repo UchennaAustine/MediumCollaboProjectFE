@@ -4,6 +4,8 @@ import ArticleEditor from "../pages/ArticleEditor";
 import ViewCreatedArticle from "../pages/ViewCreatedArticle";
 import AdminLayout from "../Component/common/AdminLayout";
 import AdminHomePage from "../pages/AdminScreen/AdminHomePage";
+import AdminSignIn from "../pages/AdminScreen/AdminSignIn";
+import AdminSignUp from "../pages/AdminScreen/AdminSignUp";
 
 export const mainRoute = createBrowserRouter([
   {
@@ -28,6 +30,16 @@ export const mainRoute = createBrowserRouter([
       {
         index: true,
         element: <AdminHomePage />,
+      },
+      {
+        index: true,
+        path: "adminSign-in",
+        element: <AdminSignIn />,
+      },
+      {
+        index: true,
+        path: "adminSign-up",
+        element: <AdminSignUp />,
       },
     ],
   },

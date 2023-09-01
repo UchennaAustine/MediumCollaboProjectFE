@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: athletics;
+  src: url(../fonts/Athletics\ Regular.otf);
+}
+
+.athletics {
+  font-family: athletics;
+}
+
+@font-face {
+  font-family: athleticsBold;
+  src: url(../fonts/Athletics\ ExtraBold.otf);
+}
+
+.athleticsBold {
+  font-family: athleticsBold;
+}
+
+@font-face {
+  font-family: astromax;
+  src: url(../fonts/Astromax\ Regular.otf);
+}
+
+.astromax {
+  font-family: astromax;
+}
+
+@font-face {
+  font-family: bugis;
+  src: url(../fonts/Bugis.ttf);
+}
+
+.bugis {
+  font-family: bugis;
+}
+
+@font-face {
+  font-family: lebla;
+  src: url(../fonts/leblancfree-jeowy.otf);
+}
+
+.lebla {
+  font-family: lebla;
+}
+
+@font-face {
+  font-family: caternia;
+  src: url(../fonts/Caternia-Regular-BF64c14aaa1c897.otf);
+
+}
+
+.caternia {
+  font-family: caternia
+}
+@font-face {
+  font-family: naston;
+  src: url(../fonts/naston-regular.ttf);
+
+}
+
+.naston {
+  font-family: naston
+}
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+
+}
+
+.poppins {
+  font-family: poppins
+}

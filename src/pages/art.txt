@@ -1,0 +1,32 @@
+// const articleModel = yup.object({
+  //   title: yup.string().required("This Field must be filled "),
+  //   description: yup.string().required("This Field must be filled "),
+  //   content: yup.string().required("This Field must be filled "),
+  //   category: yup.string().required("This Field must be filled "),
+  // });
+
+  // const {
+  //   register,
+  //   reset,
+  //   formState: { errors },
+  //   handleSubmit,
+  // } = useForm({
+  //   resolver: yupResolver(articleModel),
+  // });
+
+  // const onHandleSubmit = handleSubmit((res: any) => {
+  //   const { title, description, content, category } = res;
+  //   console.log(res);
+  //   const dater = Date.now();
+  //   // console.log(moment(dater).fromNow());
+  //   // time: dater,
+  //   createArticle({
+  //     title,
+  //     description,
+  //     content,
+  //     category,
+  //   }).then((res) => {
+  //     console.log(res);
+  //     reset();
+  //   });
+  // });

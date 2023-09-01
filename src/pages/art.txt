@@ -30,3 +30,16 @@
   //     reset();
   //   });
   // });
+
+  import { useState } from "react";
+import yups from "../../asset/designer-life-concept-illustration_114360-1537.avif"
+
+    const [image, setImage] = useState<string>("");
+  const [avatar, setAvatar] = useState<string>(yups);
+
+  const onUploadImage = (e: any) => {
+      const localImage = e.target.files[0];
+      const saveImage = URL.createObjectURL(localImage);
+      setImage(localImage);
+      setAvatar(saveImage);
+    };

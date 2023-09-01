@@ -1,8 +1,10 @@
 import {AiOutlineClose, AiOutlineSearch} from "react-icons/ai"
 import {AiOutlineMenu} from "react-icons/ai"
-import img1 from "../assets/avatar1.png";
-import boxImg2 from "../assets/image2.png";
+import img1 from "../../asset/avatar1.png";
+import boxImg2 from "../../asset/image2.png";
 import { useState } from "react";
+import { HiOutlineBookOpen } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const UserPage = () => {
     const [show,setshow] = useState<boolean>(false)
@@ -25,7 +27,12 @@ const UserPage = () => {
                 <input placeholder="search" className="placeholder:text-[14px] outline-none h-[80%] mx-[5px] text-[14px]"/>
                </div>
                </div>
+              <div className="flex gap-6 items-center">
+           <Link to="/article">
+           <div className="text-[30px] text-[#6b6666] cursor-pointer"><HiOutlineBookOpen/></div>
+           </Link>
                <div className="flex items-center  rounded-[20px] border-[1px] gap-[10px] border-b-[silver] py-[3px] px-[5px]">
+                
                <div className="ml-[5px] text-[18px] text-[silver] "onClick={toggle}>
               {
                 show ? <div> 
@@ -49,6 +56,7 @@ const UserPage = () => {
              }
                 {/* box */}
                </div>
+              </div>
             </div>
             </div>
             </div>

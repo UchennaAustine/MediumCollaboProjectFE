@@ -1,14 +1,14 @@
 import ReviewProps from "../../Component/static/ReviewProps"
-import img from "../assets/medium.png";
-import img1 from "../assets/avatar1.png";
-import img2 from "../assets/avatar2.png";
-import img3 from "../assets/avatar3.png";
-import img4 from "../assets/avatar4.jpg";
-import boxImg from "../assets/image1.png";
-import boxImg2 from "../assets/image2.png";
-import boxImg3 from "../assets/image3.jpg";
-import boxImg4 from "../assets/image4.png";
-import boxImg5 from "../assets/image5.jpg";
+import img from "../../asset/medium.png";
+import img1 from "../../asset/avatar1.png";
+import img2 from "../../asset/avatar2.png";
+import img3 from "../../asset/avatar3.png";
+import img4 from "../../asset/avatar4.jpg";
+import boxImg from "../../asset/image1.png";
+import boxImg2 from "../../asset/image2.png";
+import boxImg3 from "../../asset/image3.jpg";
+import boxImg4 from "../../asset/image4.png";
+import boxImg5 from "../../asset/image5.jpg";
 import Categories from "./Categories";
 
 

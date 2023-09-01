@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logo from "../../assets/medium.png"
+import logo from "../../asset/medium.png"
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
                 <nav>Write</nav>
                 <nav>Sign In</nav>
                 
-                <Link to="/register">
+                <Link to="/getStartedPage">
               <button className="py-[9px] px-[15px] bg-black text-white rounded-[20px] z-20">Get started</button>
                 </Link>
             </div>

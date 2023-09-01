@@ -6,6 +6,8 @@ import AdminLayout from "../Component/common/AdminLayout";
 import AdminHomePage from "../pages/AdminScreen/AdminHomePage";
 import AdminSignIn from "../pages/AdminScreen/AdminSignIn";
 import AdminSignUp from "../pages/AdminScreen/AdminSignUp";
+import GetStarted from "../pages/GetStarted";
+import UserPage from "../pages/LandingPage/UserPage";
 
 export const mainRoute = createBrowserRouter([
   {
@@ -14,14 +16,11 @@ export const mainRoute = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <ArticleEditor />,
-      },
-      {
-        index: true,
         path: "/vca",
         element: <ViewCreatedArticle />,
       },
     ],
+   
   },
   {
     path: "/admin",
@@ -42,5 +41,20 @@ export const mainRoute = createBrowserRouter([
         element: <AdminSignUp />,
       },
     ],
+  },
+  {
+    index: true,
+    path: "article",
+    element: <ArticleEditor />,
+  },
+  {
+    index: true,
+    path: "/getStartedPage",
+    element: <GetStarted />,
+  },
+  {
+    index: true,
+    path: "/home",
+    element: <UserPage />,
   },
 ]);

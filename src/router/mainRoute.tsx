@@ -20,7 +20,6 @@ export const mainRoute = createBrowserRouter([
         element: <ViewCreatedArticle />,
       },
     ],
-   
   },
   {
     path: "/admin",
@@ -32,12 +31,12 @@ export const mainRoute = createBrowserRouter([
       },
       {
         index: true,
-        path: "adminSign-in",
+        path: "/adminSign-in",
         element: <AdminSignIn />,
       },
       {
         index: true,
-        path: "adminSign-up",
+        path: "/adminSign-up",
         element: <AdminSignUp />,
       },
     ],
